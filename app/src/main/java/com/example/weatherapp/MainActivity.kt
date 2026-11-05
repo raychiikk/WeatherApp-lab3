@@ -17,6 +17,7 @@ import com.example.weatherapp.data.WeatherCodes
 import com.example.weatherapp.databinding.ActivityMainBinding
 import com.example.weatherapp.databinding.ItemForecastBinding
 import com.example.weatherapp.i18n.LocaleHelper
+import com.example.weatherapp.widget.WeatherWidgetProvider
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.launch
@@ -159,6 +160,7 @@ class MainActivity : AppCompatActivity() {
             binding.forecastContainer.addView(item.root)
         }
         Timber.d("Weather rendered for %s", cityTitle)
+        WeatherWidgetProvider.updateAll(this)
     }
 
     private fun showMessage(text: String) {
