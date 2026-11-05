@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather</string>
+
+    <!-- Main screen -->
+    <string name="search_hint">City</string>
+    <string name="action_search">Search</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_language">Language</string>
+    <string name="hint_enter_city">Enter a city name to see the weather.</string>
+    <string name="forecast_title">5-day forecast</string>
+    <string name="last_updated">Updated at %1$s</string>
+
+    <!-- Values -->
+    <string name="temp_format">%1$d°C</string>
+    <string name="forecast_range">%1$d° / %2$d°</string>
+    <string name="details_format">Feels like %1$d°C · Humidity %2$d%% · Wind %3$d km/h</string>
+
+    <!-- Errors -->
+    <string name="error_city_not_found">City “%1$s” was not found.</string>
+    <string name="error_network">No connection. Check your internet and try again.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+
+    <!-- Language dialog -->
+    <string name="language_dialog_title">Choose language</string>
+    <string name="language_system">System default</string>
+    <string name="language_name_en" translatable="false">English</string>
+    <string name="language_name_uk" translatable="false">Українська</string>
+    <string name="language_name_de" translatable="false">Deutsch</string>
+
+    <!-- Widget -->
+    <string name="widget_description">Current weather for your saved city</string>
+    <string name="widget_no_city">Open the app and choose a city</string>
+    <string name="widget_refresh_desc">Refresh</string>
+
+    <!-- Weather conditions -->
+    <string name="weather_clear">Clear sky</string>
+    <string name="weather_mainly_clear">Mainly clear</string>
+    <string name="weather_partly_cloudy">Partly cloudy</string>
+    <string name="weather_overcast">Overcast</string>
+    <string name="weather_fog">Fog</string>
+    <string name="weather_drizzle">Drizzle</string>
+    <string name="weather_rain">Rain</string>
+    <string name="weather_freezing_rain">Freezing rain</string>
+    <string name="weather_snow">Snow</string>
+    <string name="weather_rain_showers">Rain showers</string>
+    <string name="weather_snow_showers">Snow showers</string>
+    <string name="weather_thunderstorm">Thunderstorm</string>
+    <string name="weather_unknown">Unknown</string>
+</resources>

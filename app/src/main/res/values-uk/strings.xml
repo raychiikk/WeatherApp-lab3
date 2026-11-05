@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+
+    <!-- Main screen -->
+    <string name="search_hint">Місто</string>
+    <string name="action_search">Шукати</string>
+    <string name="action_refresh">Оновити</string>
+    <string name="action_language">Мова</string>
+    <string name="hint_enter_city">Введіть назву міста, щоб побачити погоду.</string>
+    <string name="forecast_title">Прогноз на 5 днів</string>
+    <string name="last_updated">Оновлено о %1$s</string>
+
+    <!-- Values -->
+    <string name="temp_format">%1$d°C</string>
+    <string name="forecast_range">%1$d° / %2$d°</string>
+    <string name="details_format">Відчувається як %1$d°C · Вологість %2$d%% · Вітер %3$d км/год</string>
+
+    <!-- Errors -->
+    <string name="error_city_not_found">Місто «%1$s» не знайдено.</string>
+    <string name="error_network">Немає зв’язку. Перевірте інтернет і спробуйте ще раз.</string>
+    <string name="error_generic">Щось пішло не так. Спробуйте ще раз.</string>
+
+    <!-- Language dialog -->
+    <string name="language_dialog_title">Оберіть мову</string>
+    <string name="language_system">Мова системи</string>
+
+    <!-- Widget -->
+    <string name="widget_description">Поточна погода для збереженого міста</string>
+    <string name="widget_no_city">Відкрийте застосунок і оберіть місто</string>
+    <string name="widget_refresh_desc">Оновити</string>
+
+    <!-- Weather conditions -->
+    <string name="weather_clear">Ясно</string>
+    <string name="weather_mainly_clear">Переважно ясно</string>
+    <string name="weather_partly_cloudy">Мінлива хмарність</string>
+    <string name="weather_overcast">Похмуро</string>
+    <string name="weather_fog">Туман</string>
+    <string name="weather_drizzle">Мряка</string>
+    <string name="weather_rain">Дощ</string>
+    <string name="weather_freezing_rain">Крижаний дощ</string>
+    <string name="weather_snow">Сніг</string>
+    <string name="weather_rain_showers">Зливи</string>
+    <string name="weather_snow_showers">Снігопад</string>
+    <string name="weather_thunderstorm">Гроза</string>
+    <string name="weather_unknown">Невідомо</string>
+</resources>
